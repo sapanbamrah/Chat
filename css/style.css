@@ -1,0 +1,83 @@
+body *{
+    font-size : 16px;
+    font-family: "Lucida Grande";
+    color: #3C3C3C;
+}
+
+.chat-app{
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+
+}
+.chat-window{
+    display: inline-block;
+    width: 250px;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+
+.chat-username{
+    border: 1px solid #acacac;
+    outline: 0;
+    padding: 5px 3%;
+    width:94%;
+    margin: 0;
+}
+.chat-status{display: none;}
+.chat-messages{
+    margin: 0;
+    padding: 5px 3%;
+    border: 1px solid #acacac;
+    border-top: 0;
+    border-bottom: 0;
+    height: 250px;
+    overflow-y: scroll;
+    width: 94%;
+}
+
+.chat-message{
+    margin-bottom: 5px;
+}
+
+.chat-message-submit{
+    border: 1px solid #acacac;
+    outline: 0;
+    padding: 5px 3%;
+    width:94%;
+    margin: 0 0 -5px 0;
+    resize: none;
+}
+
+.friend-list{
+    display: inline-block;
+    border: 1px solid #acacac;
+    width: 150px;
+    height: 200px;
+}
+
+.friend-list-heading{
+    background: #acacac;
+    color: #fff;
+    padding: 2px 5px;
+}
+
+.friend-list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.friend-list ul li{
+    padding:2px 5px ;
+    border-bottom: 1px solid #acacac;
+}
+
+.friend-list ul li a{
+    display: block;
+    cursor: pointer;
+}
+
+.friend-list ul li:hover{
+    background: #DCF9FC;
+}
